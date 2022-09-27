@@ -23,7 +23,8 @@ export default function Search() {
     //     alert(JSON.stringify(serverSearch, '', 2));
     // };
 
-    const handleSubmit = () => {
+    const handleSubmit = (event) => {
+        event.preventDefault();
          dispatch(addServerResults(serverSearch));
     };
 
