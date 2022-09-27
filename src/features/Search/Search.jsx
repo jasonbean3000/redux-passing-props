@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addedSearchResults, addServerResults } from "../../app/resultsSlice";
+import { addServerResults } from "../../app/resultsSlice";
 import './Search.css'
 
 export default function Search() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { resultsSlice, addedSearchResults, addServerResults, addDateResults, addIdResults } from '../../app/resultsSlice';
+
+import { useSelector } from 'react-redux';
+
 import './Results.css'
 
 
@@ -12,14 +12,16 @@ export default function Results() {
     // assigned as searchResults
     // calling useSelector in side Results subscribes the Results component to 
     // re-render if any changes occer in the searchResults portion of redux store
-    const searchResults = useSelector(addedSearchResults);
-    const dispatch = useDispatch();
+    
+    const searchResults = useSelector((state) => state.results);
+    
+    
     
     // const showResults = () => {
     //     dispatch(addServerResults, addDateResults, addIdResults);
     // }
-
-    // useEffect(showResults);
+   
+    
 
     // useEffect(() => {
     //     dispatch(addServerResults, addDateResults, addIdResults)

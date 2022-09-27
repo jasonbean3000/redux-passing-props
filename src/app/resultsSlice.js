@@ -1,4 +1,4 @@
-import { createSlice, createSelector } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     server: '',
@@ -23,17 +23,6 @@ const resultsSlice = createSlice({
         }
     }
 })
-
-// const searches = {
-//     name: 'searchResults',
-//     initialState: [],
-//     reducers: {
-//         addSearchResults: (state, action) => {
-//             state.push({...action.payload})
-//         },
-//     }
-// }
-
 
 
 export const { 
