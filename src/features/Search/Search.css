@@ -3,10 +3,14 @@
     height: 250px;
     background-color: #FFFF;
     border-radius: 5px;
-    padding: 5px;
+    border-style: groove;
+    padding: 10px;
     border-width: .1px;
-    box-shadow: 3px 3px 5px grey, -3px -3px 5px grey, 3px -3px 5px grey, -3px 3px 5px grey;
-    margin-bottom: 2%;
+    border-left-color: #b6b6b6;
+    border-top-color: #b6b6b6;
+    background-color: #F5F5FC;
+    box-shadow: 3px 3px 5px rgb(136, 135, 135);
+    margin-bottom: 4%;
 }
 
 form {

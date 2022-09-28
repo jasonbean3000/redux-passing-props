@@ -1,9 +1,18 @@
 .results {
-    width: 600px;
+    width: auto;
     height: 250px;
     background-color: #FFFF;
     border-radius: 5px;
+    border-style: groove;
     padding: 5px;
     border-width: .1px;
-    box-shadow: 3px 3px 5px grey, -3px -3px 5px grey, 3px -3px 5px grey, -3px 3px 5px grey;
+    border-left-color: #b6b6b6;
+    border-top-color: #b6b6b6;
+    background-color: #F5F5FC;
+    box-shadow: 3px 3px 5px rgb(136, 135, 135);
+    margin-bottom: 2%;
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: #202021;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

@@ -1,4 +1,11 @@
 .App {
   margin-left: 15%;
   margin-right: 15%;
+  margin-top: 3%;
+  border-style: groove;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  padding: 0% 5% 5% 5%;
+  background-color: #D4D4D4;
 }
